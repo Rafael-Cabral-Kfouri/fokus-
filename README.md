@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+# 🍅 Fockus - App de Técnica Pomodoro
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo mobile desenvolvido em **React Native** com **Expo** para gerenciar seus ciclos de estudo e descanso usando a famosa Técnica Pomodoro.
 
-## Get started
+<p align="center">
+  <img src="./assets/Imagem%20foco.png" width="200" alt="Imagem do modo Foco do Fockus">
+</p>
 
-1. Install dependencies
+## ✨ Funcionalidades (Atuais e Previstas)
 
-   ```bash
-   npm install
-   ```
+-   [x] **Seleção de Modo:** Escolha entre os tempos de Foco (25min), Pausa Curta (5min) e Pausa Longa (15min).
+-   [x] **Interface Intuitiva:** Design moderno e fácil de usar.
+-   [ ] Contagem Regressiva em Tempo Real.
+-   [ ] Notificações Sonoras e Visuais.
+-   [ ] Histórico de Sessões.
 
-2. Start the app
+## 🚀 Como Executar o Projeto
 
-   ```bash
-   npx expo start
-   ```
+Siga os passos abaixo para rodar o Fockus na sua máquina:
 
-In the output, you'll find options to open the app in a
+**Pré-requisitos:** Node.js e npm/yarn instalados.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/fockus.git
+    cd fockus
+    ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
 
-## Get a fresh project
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npx expo start
+    ```
+    Um terminal com um QR Code será aberto.
 
-When you're ready, run:
+4.  **Execute no seu celular:**
+    *   Instale o app **Expo Go** ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) | [iOS](https://apps.apple.com/br/app/expo-go/id982107779)).
+    *   Abra o app Expo Go e escaneie o QR Code com a câmera do seu celular.
 
+5.  **Execute em um emulador:**
+    *   **Android:** Pressione `a` no terminal onde o Expo está rodando.
+    *   **iOS:** Pressione `i` no terminal (é necessário um Mac com Xcode instalado).
+
+## 🛠️ Tecnologias Utilizadas
+
+-   [React Native](https://reactnative.dev/)
+-   [Expo](https://expo.dev/)
+-   JavaScript
+
+## 📦 Estrutura do Projeto (Resumida)
 ```bash
-npm run reset-project
+fockus/
+├── assets/ # Imagens e ícones do projeto
+│ ├── Imagem foco.png
+│ ├── Imagem descanso curto.png
+│ └── Imagem descanso longo.png
+├── App.js # Componente principal da aplicação
+└── package.json # Dependências e scripts do projeto
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🤝 Como Contribuir
 
-## Learn more
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma **Issue** ou um **Pull Request**.
 
-To learn more about developing your project with Expo, look at the following resources:
+1.  Faça um Fork do projeto
+2.  Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
+3.  Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4.  Push para a Branch (`git push origin feature/AmazingFeature`)
+5.  Abra um Pull Request
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Nota:** Este é um projeto de estudo desenvolvido durante o curso da Alura. Sem fins comerciais.
