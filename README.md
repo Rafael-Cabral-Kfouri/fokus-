@@ -2,9 +2,7 @@
 
 Um aplicativo mobile desenvolvido em **React Native** com **Expo** para gerenciar seus ciclos de estudo e descanso usando a famosa Técnica Pomodoro.
 
-<p align="center">
-  <img src="./assets/Imagem%20foco.png" width="200" alt="Imagem do modo Foco do Fockus">
-</p>
+![Image](https://github.com/user-attachments/assets/95a7b2ea-b00e-4947-af75-b64df0684ac1)
 
 ## ✨ Funcionalidades (Atuais e Previstas)
 
