@@ -53,16 +53,6 @@ Siga os passos abaixo para rodar o Fockus na sua máquina:
 -   [Expo](https://expo.dev/)
 -   JavaScript
 
-## 📦 Estrutura do Projeto (Resumida)
-```bash
-fockus/
-├── assets/ # Imagens e ícones do projeto
-│ ├── Imagem foco.png
-│ ├── Imagem descanso curto.png
-│ └── Imagem descanso longo.png
-├── App.js # Componente principal da aplicação
-└── package.json # Dependências e scripts do projeto
-```
 
 ## 🤝 Como Contribuir
 
