@@ -2,7 +2,7 @@
 
 Um aplicativo mobile desenvolvido em **React Native** com **Expo** para gerenciar seus ciclos de estudo e descanso usando a famosa Técnica Pomodoro.
 
-![Image](https://github.com/user-attachments/assets/95a7b2ea-b00e-4947-af75-b64df0684ac1)
+![Image](https://github.com/user-attachments/assets/b864a122-8fb1-4cb9-aa27-001d5c6bcdd7)
 
 ## ✨ Funcionalidades (Atuais e Previstas)
 
